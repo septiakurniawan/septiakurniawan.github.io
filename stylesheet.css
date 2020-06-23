@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Serif";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  background-color: rgba(160, 157, 156, 0.9);
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.logo {
+  height: 50px;
+  width: 120px;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+  background-color: #ff6666;
+
+}
+.header-right:hover {
+  background-color: rgb(255, 51, 0, 0.7);
+
+}
+.header-right a {
+  line-height: 50px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.top-wrapper {
+  background-image: url("background.jpg");
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  }
+.top-wrapper h1 {
+  letter-spacing: 5px;
+}
+.lesson-wrapper {
+  text-align: center;
+  color: #686464;
+  margin: 100px 0 120px 0;
+  }
+  .judul h3 {
+  font-size: 30px;
+  font-weight: solid;
+  }
+.lesson {
+  float: left;
+  width: 33%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 100px;
+  }
+
+.message-wrapper {
+  text-align: center;
+  color: #686464;
+  margin-bottom: 80px;
+}
+
+.image:hover {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  height: 50px;
+  width: 100px;
+}
+footer p {
+  color: rgba(240, 25, 25, 1);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer {
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: rgba(156, 145, 145, 0.8)
+}
